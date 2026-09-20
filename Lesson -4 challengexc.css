@@ -1,0 +1,96 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ #back{
+    margin-left: 35px;
+    margin-top: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+ }
+ #next{
+     padding-left: 16px;
+     padding-right: 16px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    font-size: 16px;
+ }
+ .page{
+   margin-left: 10px;
+    margin-right: 5px;
+ }
+
+ #stretch{
+     margin-left: 5rem;
+     margin-top: 1rem;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: none;
+     background-color: green;
+     font-size: 25px;
+     color: white;
+
+     transition: padding-top 1s,
+                 padding-bottom 1s,
+                 padding-left 1s,
+                 padding-right 1s;
+                
+ }
+  #stretch:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+ }
+  #shadow{
+     margin-left: 5rem;
+     margin-top: 1rem;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: none;
+     background-color: green;
+     font-size: 25px;
+     color: white;
+     cursor: pointer;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.8);      
+ }
+
+
+ #shadow:active{  
+     box-shadow: none;
+     margin-top: 3px;
+     margin-left: 3px;
+}
+
+  .num{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border:none;
+     margin-left: 2rem;
+     margin-top: 1rem;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 20px;
+     transition:  padding 0.15s,
+                  margin 0.15s;
+  }
+
+  .num:hover{
+     margin-left: 3rem;
+     margin-top: 1rem;
+     padding-left: 45px;
+     padding-right: 45px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+  }
